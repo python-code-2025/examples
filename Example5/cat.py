@@ -11,3 +11,6 @@ class Cat(Animal):
     #destructor
     def __del__(self):
         print("The cat object is deleted")
+
+    def info(self):
+        print("This is cat")

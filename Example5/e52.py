@@ -15,5 +15,6 @@ print(f"Public Variable: {objectCat1.color}")
 
 #the objects wwill be deleted automatically in Python 
 #so you don't need to delete tjem like below
-del objectCat1
+objectDog1.info()
+objectCat1.info()
 objectDog1.dogInfo()

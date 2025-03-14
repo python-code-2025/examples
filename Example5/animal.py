@@ -7,3 +7,6 @@ class Animal:
     
     def setColor(self, value):
         self.color=value
+
+    def info(self):
+        print("this is animal")
