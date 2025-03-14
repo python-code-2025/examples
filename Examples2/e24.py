@@ -11,3 +11,10 @@ try:
 except Exception as e:
     print("ERROR:")
     print(e)
+
+#in below syntax you have to convert the int variable
+#to string using str()
+sum=7
+print("The sum of the numbers is "+str(sum))
+name="Liisa"
+print("The sum of the numbers is "+name)
