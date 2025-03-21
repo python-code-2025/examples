@@ -5,6 +5,6 @@ if response.status_code == 200:
     data=response.json()
     #print(data)
     for x in data:
-        print(x["address"]["geo"])
+        print(f"Name:{x['name']}, Address:{x['address']['street']}")
 else:
     print("Some error")
